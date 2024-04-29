@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(128, 60, 192);
+    text-decoration: underline;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(223, 206, 182);
+}
+.navbar li{
+    float: left;
+    padding-right: 20px;
+}
+.img-container {
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    
+}
+.img-1{
+    position: relative;
+    flex-basis: 1%;
+    margin-bottom: 1rem;
+}
+.img-1 .img-description{
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.img-1 .load-img{
+    display: flex;
+}
+.img-1 .load-img:focus{
+    outline: flex;
+}
+.img-1 .load-img:focus + .img-description,
+.img-1 .img-description:focus{
+    display: block;
+}
+h4 {
+    text-align: center;
+    text-transform: capitalize;
+}
+.about-platform {
+    color: white;
+    background-color: blue;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.addressing {
+    color: black;
+    font-size: x-large;
+}
+.goal-mission {
+    font-size: x-large;
+}
+em {
+    color: red;
+}
+.find-help {
+    text-align: center;
+}
+.contact {
+    text-align: center;
+}
+.helpline {
+    padding-top: 20px;
+}
